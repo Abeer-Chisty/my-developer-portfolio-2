@@ -12,13 +12,21 @@ h1 {
     font-size: 70px;
 }
 
+h2 {
+    font-size: 55px;
+}
+
 h3 {
     font-size: 30px;
 }
 
-section {
+p {
+    font-size: 21px;
+}
+
+.flexible-container {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 
 }
 
@@ -29,7 +37,7 @@ section {
 }
 
 .half-width p {
-    font-size: 20px;
+    font-size: 21px;
     width: 85%;
 }
 
@@ -55,4 +63,31 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    box-shadow: 15px 15px 50px gray;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-left: 8px solid blue;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#left {
+    border-left: 8px solid tomato;
+    padding-left: 16px;
+    padding-right: 10px;
+
+}
+
+footer {
+    text-align: center;
 }
