@@ -2,6 +2,10 @@ span {
     color: tomato;
 }
 
+.blue {
+    color: blue;
+}
+
 body {
     font-family: 'Finlandica', sans-serif;
     font-family: 'Oswald', sans-serif;
